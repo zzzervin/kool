@@ -34,10 +34,31 @@
 #     print("Kanna maski")
 
 
+#from random import*
+#spisok=[]
+#N=int(input("N"))
+#for i in range(N):
+#    spisok.append(randint(1,100))    
+#print(spisok)
+#L1=spisok[0]
+#L2=spisok[-1]
+#spisok.pop(0)
+#spisok.insert(0,L2)
+#print(spisok)
 
 
-
-
-
-
-
+from random import*
+r=randint(1,20)
+spisok=[]
+for i in range(r):
+    spisok.append(randint(1,100))
+print(spisok)
+A=max(spisok)
+print("самое большое",A)
+L=len(spisok)
+print("длина списка",L)
+A2=(A/L)
+print("ответ",A2)
+ind=spisok.index(A)
+spisok.insert(ind,A2)
+print(spisok)
