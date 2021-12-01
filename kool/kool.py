@@ -63,6 +63,9 @@ ind=spisok.index(A)
 spisok.insert(ind,A2)
 print(spisok)
 
+                                    #Dlaj intrgrca
+
+
 Maakonnad=["Tallin","Narva",]
 iseloom=[1000,2000]
 n=int(input())
