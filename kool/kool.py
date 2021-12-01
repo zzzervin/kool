@@ -63,10 +63,46 @@ ind=spisok.index(A)
 spisok.insert(ind,A2)
 print(spisok)
 
+
+                                    #not work
+
+#from random import*
+#spisok=spisok_=[]
+
+#for i in range(6):
+#    spisok.append(randint(-100,100))
+#print(spisok)
+#for n in spisok:
+#    spisok_.append(abs(n))
+#spisok_.sort()
+#print(spisok_)
+#spisok_.sort(reverse=True)
+#print(spisok_)
+
+                                    #######    
+
+
+#L1=['крот', 'белка', 'выхухоль']
+#L2=['a', 'aa', 'aaa', 'aaaa', 'aaaaa']
+#L3=['qweasdqweas', 'q', 'rteww', 'ewqqqqq']
+#SS=[L1,L2,L3]
+#N=0
+#while N<len(SS):
+#    print(SS[N])
+#   pikkem=0
+#    sN_=[]
+#    for s in SS[N]:
+#        pikkus=len(s)
+#        if pikkus>pikkem:pikkem=pikkus
+#    for s in SS[N]:
+#        sN_.append(s.ljust(pikkem,'*'))
+#    print(sN_)
+#    N+=1
+
+
                                     #Dlaj intrgrca
-
-
-Maakonnad=["Tallin","Narva",]
-iseloom=[1000,2000]
-n=int(input())
-print(Maakonnad[n],iseloom[n])
+while 1:
+    Maakonnad=["Tallin","Narva",]
+    iseloom=[1000,2000]
+    n=int(input())
+    print(Maakonnad[n],iseloom[n])
