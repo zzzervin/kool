@@ -62,3 +62,8 @@ print("ответ",A2)
 ind=spisok.index(A)
 spisok.insert(ind,A2)
 print(spisok)
+
+Maakonnad=["Tallin","Narva",]
+iseloom=[1000,2000]
+n=int(input())
+print(Maakonnad[n],iseloom[n])
